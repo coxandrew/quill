@@ -1,5 +1,5 @@
 import Delta from 'quill-delta';
-import Editor from '../../../core/editor';
+import Editor from '../../../src/core/editor';
 
 describe('Header', function() {
   it('add', function() {

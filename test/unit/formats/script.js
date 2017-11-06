@@ -1,4 +1,4 @@
-import Editor from '../../../core/editor';
+import Editor from '../../../src/core/editor';
 
 describe('Script', function() {
   it('add', function() {

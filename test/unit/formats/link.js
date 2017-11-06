@@ -1,6 +1,6 @@
 import Delta from 'quill-delta';
-import Editor from '../../../core/editor';
-import Link from '../../../formats/link';
+import Editor from '../../../src/core/editor';
+import Link from '../../../src/formats/link';
 
 describe('Link', function() {
   it('add', function() {

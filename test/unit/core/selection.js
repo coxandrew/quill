@@ -1,5 +1,5 @@
-import Selection, { Range } from '../../../core/selection';
-import Cursor from '../../../blots/cursor';
+import Selection, { Range } from '../../../src/core/selection';
+import Cursor from '../../../src/blots/cursor';
 
 describe('Selection', function() {
   beforeEach(function() {

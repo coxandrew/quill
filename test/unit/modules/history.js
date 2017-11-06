@@ -1,6 +1,6 @@
 import Delta from 'quill-delta';
 import Quill from '../../../core';
-import { getLastChangeIndex } from '../../../modules/history';
+import { getLastChangeIndex } from '../../../src/modules/history';
 
 describe('History', function() {
   describe('getLastChangeIndex', function() {

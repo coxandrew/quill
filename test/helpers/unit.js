@@ -1,9 +1,9 @@
 import equal from 'deep-equal';
-import Editor from '../../core/editor';
-import Emitter from '../../core/emitter';
-import Selection from '../../core/selection';
-import Scroll from '../../blots/scroll';
-import Quill from '../../core/quill';
+import Editor from '../../src/core/editor';
+import Emitter from '../../src/core/emitter';
+import Selection from '../../src/core/selection';
+import Scroll from '../../src/blots/scroll';
+import Quill from '../../src/core/quill';
 
 const div = document.createElement('div');
 div.id = 'test-container';

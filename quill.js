@@ -1,46 +1,46 @@
 import Quill from './core';
 
-import { AlignClass, AlignStyle } from './formats/align';
+import { AlignClass, AlignStyle } from './src/formats/align';
 import {
   DirectionAttribute,
   DirectionClass,
   DirectionStyle,
-} from './formats/direction';
-import Indent from './formats/indent';
+} from './src/formats/direction';
+import Indent from './src/formats/indent';
 
-import Blockquote from './formats/blockquote';
-import Header from './formats/header';
-import List, { ListItem } from './formats/list';
+import Blockquote from './src/formats/blockquote';
+import Header from './src/formats/header';
+import List, { ListItem } from './src/formats/list';
 
-import { BackgroundClass, BackgroundStyle } from './formats/background';
-import { ColorClass, ColorStyle } from './formats/color';
-import { FontClass, FontStyle } from './formats/font';
-import { SizeClass, SizeStyle } from './formats/size';
+import { BackgroundClass, BackgroundStyle } from './src/formats/background';
+import { ColorClass, ColorStyle } from './src/formats/color';
+import { FontClass, FontStyle } from './src/formats/font';
+import { SizeClass, SizeStyle } from './src/formats/size';
 
-import Bold from './formats/bold';
-import Italic from './formats/italic';
-import Link from './formats/link';
-import Script from './formats/script';
-import Strike from './formats/strike';
-import Underline from './formats/underline';
+import Bold from './src/formats/bold';
+import Italic from './src/formats/italic';
+import Link from './src/formats/link';
+import Script from './src/formats/script';
+import Strike from './src/formats/strike';
+import Underline from './src/formats/underline';
 
-import Formula from './formats/formula';
-import Image from './formats/image';
-import Video from './formats/video';
+import Formula from './src/formats/formula';
+import Image from './src/formats/image';
+import Video from './src/formats/video';
 
-import CodeBlock, { Code as InlineCode } from './formats/code';
+import CodeBlock, { Code as InlineCode } from './src/formats/code';
 
-import Syntax from './modules/syntax';
-import Toolbar from './modules/toolbar';
+import Syntax from './src/modules/syntax';
+import Toolbar from './src/modules/toolbar';
 
-import Icons from './ui/icons';
-import Picker from './ui/picker';
-import ColorPicker from './ui/color-picker';
-import IconPicker from './ui/icon-picker';
-import Tooltip from './ui/tooltip';
+import Icons from './src/ui/icons';
+import Picker from './src/ui/picker';
+import ColorPicker from './src/ui/color-picker';
+import IconPicker from './src/ui/icon-picker';
+import Tooltip from './src/ui/tooltip';
 
-import BubbleTheme from './themes/bubble';
-import SnowTheme from './themes/snow';
+import BubbleTheme from './src/themes/bubble';
+import SnowTheme from './src/themes/snow';
 
 Quill.register(
   {

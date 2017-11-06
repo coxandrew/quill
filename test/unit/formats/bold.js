@@ -1,4 +1,4 @@
-import Scroll from '../../../blots/scroll';
+import Scroll from '../../../src/blots/scroll';
 
 describe('Bold', function() {
   it('optimize and merge', function() {

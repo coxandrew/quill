@@ -1,5 +1,5 @@
 import Parchment from 'parchment';
-import Scroll from '../../../blots/scroll';
+import Scroll from '../../../src/blots/scroll';
 
 describe('Block', function() {
   it('childless', function() {

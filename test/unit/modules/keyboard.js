@@ -1,4 +1,4 @@
-import Keyboard, { SHORTKEY, normalize } from '../../../modules/keyboard';
+import Keyboard, { SHORTKEY, normalize } from '../../../src/modules/keyboard';
 
 describe('Keyboard', function() {
   describe('match', function() {

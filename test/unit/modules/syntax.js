@@ -1,8 +1,8 @@
 import hljs from 'highlight.js';
 import Delta from 'quill-delta';
-import Quill from '../../../core/quill';
-import CodeBlock from '../../../formats/code';
-import Syntax from '../../../modules/syntax';
+import Quill from '../../../src/core/quill';
+import CodeBlock from '../../../src/formats/code';
+import Syntax from '../../../src/modules/syntax';
 
 const HIGHLIGHT_INTERVAL = 10;
 

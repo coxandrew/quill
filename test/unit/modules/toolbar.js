@@ -1,5 +1,5 @@
-import Quill from '../../../core/quill';
-import { addControls } from '../../../modules/toolbar';
+import Quill from '../../../src/core/quill';
+import { addControls } from '../../../src/modules/toolbar';
 
 describe('Toolbar', function() {
   describe('add controls', function() {
